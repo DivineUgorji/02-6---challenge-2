@@ -46,10 +46,10 @@ h1 {
     /* gap: 100px; */
 }
 
-.col {
+/* .col {
     /* these are now flex items */
     /* width: 100%; */
-}
+ */
 
 .col + .col {
     margin-left: 30px;
@@ -88,7 +88,8 @@ h1 {
     color: #FFF;
     text-align: center;
     background-color: #136C72;
-    padding: 1rem 2rem;
+    width: 32%;
+    padding: 1rem;
 }
 
 .footer-paragraph h2{
@@ -117,7 +118,7 @@ h1 {
     }
 
     .hero__text, .hero__img, 
-    .footer-paragraph, .shade-paragraph {
+    .footer-paragraph, .shade-paragraph, .container{
         width: 100%;
     }
 
