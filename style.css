@@ -48,7 +48,7 @@ h1 {
 
 .col {
     /* these are now flex items */
-    width: 100%;
+    /* width: 100%; */
 }
 
 .col + .col {
@@ -109,4 +109,23 @@ h1 {
 .btn:hover,
 .btn:focus {
     opacity: .75; 
+}
+
+@media (max-width: 600px){
+    .row {
+        display: block;
+    }
+
+    .hero__text, .hero__img, 
+    .footer-paragraph, .shade-paragraph {
+        width: 100%;
+    }
+
+    .hero__img {
+        margin-top: 2rem;
+    }
+
+    .footer-paragraph + .shade-paragraph{
+        margin-left: 0;
+    }
 }
